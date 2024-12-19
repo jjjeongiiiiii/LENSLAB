@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.discount-info {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 15px; /* 제목 아래 여백 */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; /* 카드 사이 간격 */
+}
+
+.card {
+    padding: 10px;
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.image-placeholder {
+    width: 300px; /* 이미지 너비 100% */
+    height: auto; /* 이미지 높이 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* 글씨 크기 */
+    color: #666; /* 글씨 색상 */
+}
+
+.item-image {
+    width: 400px; /* 카드의 너비에 맞게 조정 */
+    height: 450px; /* 비율 유지 */
+    border-radius: 5px; /* 모서리 둥글게 */
+    margin-bottom: 10px; /* 이미지와 제목 간격 */
+}
+
+.item-title {
+    margin: 10px 0; /* 제목 여백 */
+    font-size: 16px; /* 제목 글씨 크기 */
+}
+
+.item-price {
+    font-size: 14px; /* 가격 글씨 크기 */
+}
+
+.original-price {
+    text-decoration: line-through; /* 가격에 줄 긋기 */
+    color: #999; /* 줄 긋기 색상 */
+}
+
+.discount {
+    color: #6EACE7; /* 할인 표시 색상 */
+    font-weight: bold;
+}

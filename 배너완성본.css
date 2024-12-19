@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 60px; /* 헤더의 높이만큼 여백 추가 */
+    z-index: 999; /* 헤더보다 위에 오도록 설정 */
+
+}
+
+
+.banner-image {
+    width: 100%;
+    display: none;
+}
+
+.banner-image.active {
+    display: block;
+}
+
+.arrow {
+    position: absolute; /* 화살표를 절대 위치로 설정 */
+    top: 50%; /* 수직 중앙 정렬 */
+    transform: translateY(-50%); /* 중앙 정렬 보정 */
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+
+.left-arrow {
+    left: 10px; /* 왼쪽 위치 */
+}
+
+.right-arrow {
+    right: 10px; /* 오른쪽 위치 */
+}
+
+.cta-button {
+    position: absolute; /* 버튼을 절대 위치로 설정 */
+    bottom: 40px; /* 아래쪽 여백 설정 */
+    left: 50%; /* 중앙 정렬 */
+    transform: translateX(-50%); /* 중앙 정렬 보정 */
+}
+
+.cta-button img {
+    width: 250px; /* 버튼 이미지 너비 조정 */
+    height: auto; /* 비율에 맞춰 높이 자동 조정 */
+}
+

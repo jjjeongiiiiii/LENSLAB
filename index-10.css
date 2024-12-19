@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+header {
+    background-color: #EFEFEF;
+    color: #686868;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0; /* 초기 위치를 0으로 설정 */
+    transition: top 0.3s;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+}
+
+
+.logo {
+    height: 50px; 
+    margin-right: 3px;
+    border-right: 1px solid #ccc; 
+    padding-right: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li:first-child {
+    margin-left: 0; 
+}
+
+header nav ul li {
+    position: relative;
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    color: #686868;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li:not(:last-child) {
+    border-right: 1px solid #ccc; 
+}
+
+header nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%; /* 부모 요소의 중앙으로 이동 */
+    transform: translateX(-50%); /* 중앙 정렬 */
+    background-color: #EFEFEF;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width:100%;
+}
+
+header nav ul li:hover ul {
+    display: block;
+}
+
+
+nav ul li ul li {
+    display: inline-block; /* 하위 메뉴 항목을 inline-block으로 설정 */
+    width: auto; /* 하위 메뉴 항목의 너비를 자동으로 설정 */
+}
+
+header nav ul li ul li a {
+    width:100%;
+    text-align: left;
+}
+
+
+nav ul li ul li a {
+    padding: 15px 20px; /* 하위 메뉴의 패딩을 상위 메뉴와 동일하게 설정 */
+    font-size: 16px; /* 하위 메뉴의 글꼴 크기를 상위 메뉴와 동일하게 설정 */
+}
+

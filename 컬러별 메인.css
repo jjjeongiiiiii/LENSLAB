@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lens-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* 항목 간의 간격 */
+}
+
+.lens-item {
+    text-align: center;
+    width: 23%; /* 각 렌즈 항목의 너비 조정 */
+}
+
+.lens-image {
+    width: 100%; /* 이미지가 항목에 맞게 조정 */
+    height: 350px;
+    
+}
+
+.view-all {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #757575; /* 링크 색상 */
+    text-decoration: none;
+    text-align: right;
+}
+
+.view-all:hover {
+    text-decoration: underline; /* 링크 호버 효과 */
+}

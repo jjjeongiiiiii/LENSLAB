@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif; /* 기본 글꼴 설정 */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* 배경 색상 */
+}
+
+header {
+    background-color: #fff; /* 헤더 배경 색상 */
+    padding: 20px; /* 패딩 */
+    text-align: center; /* 중앙 정렬 */
+}
+
+nav a {
+    margin: 0 15px; /* 링크 간격 */
+    text-decoration: none; /* 밑줄 제거 */
+    color: #333; /* 링크 색상 */
+}
+
+.featured-image img {
+    width: 100%; /* 이미지 너비 100% */
+    height: auto; /* 자동 높이 조정 */
+}
+
+.products {
+    display: grid; /* 그리드 레이아웃 */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 열 설정 */
+    gap: 10px; /* 간격 설정 */
+    padding: 20px; /* 패딩 */
+}
+
+.product img {
+    width: 100%; /* 이미지 너비 100% */
+    height: auto; /* 자동 높이 조정 */
+}
+
+footer {
+    text-align: center; /* 중앙 정렬 */
+    padding: 20px; /* 패딩 */
+    background-color: #fff; /* 배경 색상 */
+    position: relative; /* 상대 위치 설정 */
+}

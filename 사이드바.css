@@ -1,0 +1,35 @@
+.sidebar {
+    width: 170px;
+    height:630px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #000000;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #343a40;
+}
+
+.sidebar ul li ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.sidebar ul li ul li {
+    margin: 5px 0;
+}
+
+.sidebar ul li a:hover {
+    color: #73B8E1; /* 링크 호버 색상 */
+}

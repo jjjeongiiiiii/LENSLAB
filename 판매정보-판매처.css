@@ -1,0 +1,66 @@
+body {
+    padding: 20px;
+}
+
+.shop-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.shop-item {
+    background-color: #DFDFDF;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height:150px;
+    display:flex;
+    align-items: center;
+}
+
+.shop-link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.shop-image {
+    width: 300px; /* 이미지 너비 조정 */
+    height:100px;;/* 비율 유지 */
+    background-color: #DFDFDF;
+    border-radius: 8px 0 0 8px; /* 왼쪽 모서리 둥글게 */
+}
+
+.shop-image-2 {
+    margin-left:50px;
+    margin-right:50px;
+    width: 200px; 
+    height: 180px;
+    background-color: #DFDFDF;
+    border-radius: 8px 0 0 8px; /* 왼쪽 모서리 둥글게 */
+}
+
+.shop-info {
+    padding: 15px;
+    flex: 1;
+}
+
+.shop-info h2 {
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.shop-info p {
+    margin: 0;
+    color: #666;
+}
+
+

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.review-container {
+    margin-top:30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.review-item {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.image-placeholder {
+    width: 410px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.review-content {
+    flex: 1;
+    align-items: start;
+}
+
+.review-title {
+    font-weight: bold;
+    color: #333;
+    font-size:24px;
+}
+
+.review-author {
+    color: #666;
+    margin-top: 5px;
+}
+
+.review-text {
+    margin-top: 10px;
+    color: #666;
+}
+
+hr {
+    border: 1px solid #ccc;
+}

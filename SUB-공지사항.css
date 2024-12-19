@@ -1,0 +1,72 @@
+body {
+    padding: 20px;
+}
+
+.notice-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.price-notice {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #9A9A9A;
+    padding-bottom: 10px;
+    
+}
+
+.notice-image {
+    border-radius: 5px;
+    margin: 0 auto 10px;
+    width: 600px; /* 고정된 너비 */
+    height: 800px; /* 고정된 높이 */
+    object-fit: contain;
+}
+
+.price-details {
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.additional-info {
+    margin: 10px 0;
+    color: #666;
+}
+
+.back-button {
+    background-color: #000000; /* 버튼 색상 */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    text-align: center;
+    width:600px;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* 버튼 호버 색상 */
+}
+
+a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: #898989; /* 링크 색상 설정 (필요에 따라 조정) */
+}

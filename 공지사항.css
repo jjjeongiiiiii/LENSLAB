@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff; /* 배경색 */
+}
+
+.announcement {
+    background-color: #ffffff; /* 공지사항 배경색 */
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 15px; /* 제목 아래 여백 */
+}
+
+ul {
+    list-style-type: none; /* 기본 리스트 스타일 제거 */
+    padding: 0; /* 패딩 제거 */
+}
+
+li {
+    margin: 10px 0; /* 각 항목 사이 여백 */
+}
+
+a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: #000000; /* 링크 색상 */
+    font-weight: bold; /* 글씨 두껍게 */
+    padding-left: 9px;
+}
+
+a:hover {
+    text-decoration: underline; /* 호버 시 밑줄 추가 */
+}
+
+.date {
+    font-size: 12px; /* 날짜 글자 크기 */
+    color: #888; /* 날짜 색상 */
+    margin-left: 10px; /* 날짜와 제목 사이 여백 */
+}
+
+.divider {
+    height: 1px; /* 구분선 높이 */
+    background-color: #ddd; /* 구분선 색상 */
+    margin: 10px 0; /* 구분선 위아래 여백 */
+}
+
+.sidebar {
+    width: 25%; /* 사이드바 너비 */
+    padding:20px;
+}
+
+.breadcrumb {
+    font-size: 14px; /* 글자 크기 */
+    color: #666; /* 글자 색상 */
+    text-align: right; /* 오른쪽 정렬 */
+    margin: 0; /* 기본 마진 제거 */
+}
+
+.side_navigation {
+    width: 100%; /* 전체 너비 사용 */
+    padding-right: 30px; /* 오른쪽 여백 추가 */
+}
